@@ -21,10 +21,10 @@ This document contains the following details:
 The main purpose of this network is to expose a load-balanced and monitored instance of DVWA, the D*mn Vulnerable Web Application. eb app allows a user to simulate an attack and provide incident mitigation. 
 
 Load balancing ensures that the application will be highly available, in addition to restricting restricting traffic ito the network.
-A load balancer helps maintain availability of resources by preventing web servers from being overloaded. Instead traffic goes through a Load Balancer and it eavenly distributes requests  web servers.
+A load balancer helps maintain availability of resources by preventing web servers from being overloaded. Instead traffic goes through a Load Balancer and it evenly distributes requests to web servers.
 
 Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the data and system logs.
-A FileBeat checks changes to specific Filles depending on User specification. Metric BeatHealps Logs metrics from 
+A FileBeat checks changes to specific Filles depending on User specification. Metricbeat helps Logs metrics from 
 the machines operating systems. 
 
 The configuration details of each machine may be found below.
