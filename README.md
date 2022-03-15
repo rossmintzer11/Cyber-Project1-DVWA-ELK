@@ -110,15 +110,15 @@ $ ssh admin@jump-box-vm-ip
 $ cd /etc/ansible/files
 $ curl https://gist.githubusercontent.com/slape/5cc350109583af6cbe577bbcc0710c93/raw/eca603b72586fbe148c11f9c87bf96a63cb25760/Filebeat > /etc/ansible/files/filebeat-config.yml
 $ cd /etc/ansible/roles
-$curl filebeat playbook
+$ curl filebeat playbook
 ```
 
  #### Step 3: Update Config File
 
 Update filebeat-config.yml with ELK server local-ip on lines 1106 aand 1806 
 
-### Step 4: Run The Playbook
+#### Step 4: Run The Playbook
 ```
-$ansible-playbook filebeat_playbook.yml
+$ ansible-playbook filebeat_playbook.yml
 ```
 
