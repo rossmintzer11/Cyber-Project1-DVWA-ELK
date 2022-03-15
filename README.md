@@ -52,11 +52,12 @@ Machines within the network can only be accessed by my loacal machine.
 
 A summary of the access policies in place can be found in the table below.
 
-| Name     | Publicly Accessible | Allowed IP Addresses |
-|----------|---------------------|----------------------|
-| Jump Box | Yes/No              | 10.0.0.1 10.0.0.2    |
-|          |                     |                      |
-|          |                     |                      |
+| Name     | Publicly Accessible | Allowed IP Addresses   |
+|----------|---------------------|------------------------|
+| Jump Box | No                  | My_Public_IP           |
+| Web 1    | No                  | 40.87.60.51, 10.1.0.4  |
+| Web 2    | No                  | 40.87.60.51, 10.1.0.4  |
+| ELK      | No                  | 10.1.0.4, My_Public_IP |
 
 ### Elk Configuration
 
