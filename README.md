@@ -1,5 +1,5 @@
-# cyber-Project1-DVWA-ELK
-Azure network with DVWA and ELK stack for penetration testing
+# Cyber Project1 Azure Instance of DVWA and ELK
+Designed an Azure network with DVWA and ELK stack for penetration testing
 
 ## Automated ELK Stack Deployment
 
