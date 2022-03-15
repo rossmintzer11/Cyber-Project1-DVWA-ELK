@@ -98,13 +98,24 @@ SSH into the control node and follow the steps below:
 - Run the playbook, and navigate to Kibana and check that Filebeat is recieving data
 
 
-### Commands to run to download the playbook, update the files, and run the playbook
+### Commands to run to download the playbook, update the files, and run The Filebeat playbook
 
 #### Step 1
 '''
 $ ssh admin@jump-box-vm-ip
 '''
-ansible-playbook filebeat_configuration ```
+
+#### Step 2
+```
+$ cd /etc/ansible/roles
+$ curl https://gist.githubusercontent.com/slape/5cc350109583af6cbe577bbcc0710c93/raw/eca603b72586fbe148c11f9c87bf96a63cb25760/Filebeat > /etc/ansible/files/filebeat-config.yml
+```
+
+### Step 3
+
+Update filebeat-config.yml with ELK server local-ip on lines 1106 aand 1806 
+
+```$ansible-playbook filebeat_configuration ```
 
 
 _As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._
