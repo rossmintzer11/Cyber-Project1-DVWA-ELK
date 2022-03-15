@@ -8,7 +8,7 @@ Designed an Azure network with DVWA and ELK stack for penetration testing
 The Files in this Repository were made to create a Live network hosting Damn Vulnerable Web App
 and an ELK (ELastic search, Logstash, Kibana) stack monitoring for siumulated attacks.
 
-[link to playbook]Playbooks/install-elk.yml
+[link to playbook](Playbooks/install-elk.yml
 
 This document contains the following details:
 - Description of the Topology
