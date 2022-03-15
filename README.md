@@ -81,10 +81,10 @@ We have installed the following Beats on these machines:
 - Metric Beat
 
 These Beats allow us to collect the following information from each machine:
--File Beat
-  -changes to logs and files
--Metric Beat
-  -CPU usage, memory, file system, disk IO, and network IO statistics
+- File Beat
+  - changes to logs and files
+- Metric Beat
+  - CPU usage, memory, file system, disk IO, and network IO statistics
 
 ### Using the Playbook
 In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned: 
