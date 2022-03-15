@@ -113,11 +113,12 @@ $ cd /etc/ansible/roles
 $curl filebeat playbook
 ```
 
- ### Step 3: Update COnfig File
+ #### Step 3: Update Config File
 
 Update filebeat-config.yml with ELK server local-ip on lines 1106 aand 1806 
 
-```$ansible-playbook filebeat_configuration ```
+### Step 4: Run The Playbook
+```
+$ansible-playbook filebeat_playbook.yml
+```
 
-
-_As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._
