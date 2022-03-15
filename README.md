@@ -109,6 +109,8 @@ $ ssh admin@jump-box-vm-ip
 ```
 $ cd /etc/ansible/files
 $ curl https://gist.githubusercontent.com/slape/5cc350109583af6cbe577bbcc0710c93/raw/eca603b72586fbe148c11f9c87bf96a63cb25760/Filebeat > /etc/ansible/files/filebeat-config.yml
+```
+```
 $ cd /etc/ansible/roles
 $ curl filebeat playbook
 ```
