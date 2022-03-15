@@ -10,7 +10,7 @@ and an ELK (ELastic search, Logstash, Kibana) stack monitoring for siumulated at
 
 
 This document contains the following details:
-- Description of the Topologu
+- Description of the Topology
 - Access Policies
 - ELK Configuration
   - Beats in Use
@@ -64,6 +64,8 @@ A summary of the access policies in place can be found in the table below.
 ### Elk Configuration
 
 Using ANsible I created a playbopok that allowed each container to be configured automatically. Nothing was configured manually... the playbook took the executed every command and configured our containers. This allows one easily buld new machines without the work of enetering each individual command. If an admistrator would like they can adjust the playbook for different preferences or needs. 
+
+
 
 The playbook implements the following tasks:
 - Installs Dockers
