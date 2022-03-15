@@ -1,4 +1,4 @@
-# Cyber Project1 Azure Instance of DVWA and ELK
+# Cyber Security Project using Azure to Create an Instance of DVWA and ELK
 Designed an Azure network with DVWA and ELK stack for penetration testing
 
 ## Automated ELK Stack Deployment
@@ -63,8 +63,8 @@ Using ANsible I created a playbopok that allowed each container to be configured
 The playbook implements the following tasks:
 - Installs Dockers
 - Installs Python
-- ...
-- ...
+- Downloads and launches an ELK container
+- Enables starting docker upon system reboot
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
