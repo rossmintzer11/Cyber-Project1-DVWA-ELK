@@ -45,9 +45,10 @@ Access to this machine is only allowed from the following IP addresses:
 My Public IPV4 
 
 Machines within the network can only be accessed by my loacal machine.
-    - ELK via Kabana through HTTP on port 5601
-    - Jump Box vis SSH port 22
-    - Load balancer on port 80
+    
+ - ELK via Kabana through HTTP on port 5601
+ - Jump Box vis SSH port 22
+ - Load balancer on port 80
 
 A summary of the access policies in place can be found in the table below.
 
