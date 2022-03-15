@@ -1,4 +1,4 @@
-# Cyber Security Project: Using Azure to Create an Instance of DVWA and ELK
+# Using Azure to Create an Instance of DVWA and ELK
 Designed an Azure network with DVWA and ELK stack for penetration testing
 
 ## Automated ELK Stack Deployment
