@@ -98,7 +98,7 @@ SSH into the control node and follow the steps below:
 - Run the playbook, and navigate to Kibana and check that Filebeat is recieving data
 
 
-### Commands to run to download the playbook, update the files, and run The Filebeat playbook
+### Commands to download the playbook, update the files, and run The Filebeat playbook
 
 #### Step 1: SSH into Jumpbox
 '''
