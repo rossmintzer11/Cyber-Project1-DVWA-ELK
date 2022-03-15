@@ -96,7 +96,7 @@ SSH into the control node and follow the steps below:
 - Copy the filebeat_configuration.yml file to ELK VM.
 - Update the hosts file to include the webservers local IP
 - Run the playbook, and navigate to Kibana and check that Filebeat is recieving data
-$ ansible-playbook filebeat_configuration
+"$ ansible-playbook filebeat_configuration"
 
 
 _As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._
