@@ -101,9 +101,9 @@ SSH into the control node and follow the steps below:
 ### Commands to download the playbook, update the files, and run The Filebeat playbook
 
 #### Step 1: SSH into Jumpbox
-'''
+```
 $ ssh admin@jump-box-vm-ip
-'''
+```
 
 #### Step 2: Download Playbooks
 ```
