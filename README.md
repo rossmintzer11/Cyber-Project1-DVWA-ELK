@@ -1,6 +1,8 @@
 # Using Azure to Create an Instance of DVWA and ELK
 Designed an Azure network with DVWA and ELK stack for penetration testing
 
+!(Network_Diagram.jpg)
+
 ## Automated ELK Stack Deployment
 
 The Files in this Repository were made to create a Live network hosting Damn Vulnerable Web App
