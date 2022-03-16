@@ -103,7 +103,7 @@ SSH into the control node and follow the steps below:
 - Run the playbook, and navigate to Kibana and check that Filebeat is recieving data
 
 
-### Commands to download the playbook, update the files, and run The Filebeat playbook
+### Commands to download the Filebeat playbook, update the files, and run playbook
 
 #### Step 1: SSH into Jumpbox
 ```
@@ -119,7 +119,7 @@ $ curl https://gist.githubusercontent.com/slape/5cc350109583af6cbe577bbcc0710c93
 ```
 # Filebeat playbook
 $ cd /etc/ansible/roles
-$ curl filebeat playbook
+$ curl https://github.com/rossmintzer11/Cyber-Project1-DVWA-ELK/blob/41ef8896973e8f19d5995461f5799f6122ccf5ee/Playbooks/install-filebeat.yml
 ```
 
  #### Step 3: Update Config File
